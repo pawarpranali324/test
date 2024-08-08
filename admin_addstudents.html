@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="admin_addstudents.css">
+</head>
+<body>
+    <div class="container">
+        <h1>All Students</h1>
+        <table id="students-table">
+            <thead>
+                <tr>
+                    <th>Roll Number</th>
+                    <th>Student Name</th>
+                    <th>Email</th>
+                    <th>Add to Course</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                    <td>
+                        <button onclick="saveRow(this)">Save</button>
+                        <button onclick="deleteRow(this)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="addRow()">Add Student</button>
+    </div>
+
+    <script src="admin_addstudents.js"></script>
+</body>
+</html>
