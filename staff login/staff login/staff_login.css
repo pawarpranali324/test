@@ -38,14 +38,7 @@ input {
     font-size: 14px;
 }
 
-button {
-    padding: 10px;
-    background-color: #007bff;
-    border: none;
-    color: #fff;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
+
 }
 
 button:hover {
