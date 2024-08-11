@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course and Subjects Management</title>
+    <link rel="stylesheet" href="subjects.css">
+</head>
+<body>
+    <div class="container">
+        <div class="course-selection">
+            <label for="courseSelect">Select Course:</label>
+            <select id="courseSelect">
+                <option value="DAC">DAC</option>
+                <option value="DMC">DMC</option>
+                <option value="DESD">DESD</option>
+                <option value="DBDA">DBDA</option>
+                <option value="DITISS">DITISS</option>
+            </select>
+            <button id="showSubjectsBtn">Show Subjects</button>
+        </div>
+        
+        
+        <form id="courseForm">
+           
+            
+        </form>
+        
+            
+        <div class="subjects-section">
+            <h2>Subjects</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject Name</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="subjectList">
+                    <!-- Subjects will be added here dynamically -->
+                </tbody>
+            </table>
+            <br><br>
+            <div class="add-subject">
+                <label for="subjectName">Add Subject:</label>
+                <input type="text" id="subjectName" placeholder="Enter subject name" required>
+                <button id="addSubjectBtn">Add</button>
+            </div>
+        </div>
+    </div>
+    <script src="subjects.js"></script>
+</body>
+</html>
